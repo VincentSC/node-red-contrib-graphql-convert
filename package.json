@@ -1,0 +1,25 @@
+{
+  "name": "red-contrib-convert",
+  "version": "1.0.0",
+  "description": "Node-RED node that converts payloads to a specific type",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzenicolai/node-red-contrib-convert.git"
+  },
+  "keywords": [
+    "node",
+    "red",
+    "node-red",
+    "convert",
+    "contrib"
+  ],
+  "author": "Renze Nicolai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renzenicolai/node-red-contrib-convert/issues"
+  },
+  "homepage": "https://github.com/renzenicolai/node-red-contrib-convert#readme"
+}
