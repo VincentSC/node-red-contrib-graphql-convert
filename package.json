@@ -10,16 +10,17 @@
     "url": "git+https://github.com/renzenicolai/node-red-contrib-convert.git"
   },
   "keywords": [
-    "node",
-    "red",
-    "node-red",
-    "convert",
-    "contrib"
+    "node-red"
   ],
   "author": "Renze Nicolai",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/renzenicolai/node-red-contrib-convert/issues"
   },
-  "homepage": "https://github.com/renzenicolai/node-red-contrib-convert#readme"
+  "homepage": "https://github.com/renzenicolai/node-red-contrib-convert#readme",
+    "node-red"     : {
+        "nodes": {
+            "sample": "convert/convert.js"
+        }
+    }
 }
