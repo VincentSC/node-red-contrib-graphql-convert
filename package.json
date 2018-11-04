@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-convert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node-RED node that converts payloads to a specific type",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,9 +18,9 @@
     "url": "https://github.com/renzenicolai/node-red-contrib-convert/issues"
   },
   "homepage": "https://github.com/renzenicolai/node-red-contrib-convert#readme",
-    "node-red"     : {
-        "nodes": {
-            "sample": "convert/convert.js"
-        }
+  "node-red": {
+    "nodes": {
+      "sample": "convert/convert.js"
     }
+  }
 }
