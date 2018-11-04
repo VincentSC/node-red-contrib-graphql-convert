@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-convert",
+  "name": "node-red-contrib-convert",
   "version": "1.0.0",
   "description": "Node-RED node that converts payloads to a specific type",
   "scripts": {
