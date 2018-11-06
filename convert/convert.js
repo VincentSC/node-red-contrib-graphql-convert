@@ -16,6 +16,14 @@ module.exports = function(RED) {
 					msg.payload = Boolean(msg.payload);
 				}
 			}
+			if (this.convertTo === "boolean (0/1)") {
+				if (typeof msg.payload === "string") {
+					msg.payload = Boolean(Number(msg.payload));
+				} else {
+					msg.payload = Boolean(msg.payload);
+				}
+				msg.payload = Number(msg.payload);
+			}
             node.send(msg);
         });
     }
