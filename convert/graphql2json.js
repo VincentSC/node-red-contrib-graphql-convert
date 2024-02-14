@@ -1,4 +1,4 @@
-const {convertGraphql2Json} = require("graphql-query-to-json")
+const { graphQlQueryToJson } = require("graphql-query-to-json")
 
 module.exports = function(RED) {
 
@@ -7,7 +7,7 @@ module.exports = function(RED) {
         let node = this;
 		this.on('input', function(msg, send, done) {
 			send = send || function() { node.send.apply(node,arguments) }
-			msg.graphql = convertGraphql2Json(msg.json, { pretty: true });
+			msg.graphql = graphQlQueryToJson(msg.json, { pretty: true });
 			send(msg);
 		
 			if (done) {
