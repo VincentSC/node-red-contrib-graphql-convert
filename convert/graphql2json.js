@@ -13,6 +13,7 @@ module.exports = function(RED) {
 			if (done) {
 				done();
 			}
+        });
     }
 
     RED.nodes.registerType("graphql2json", Graphql2JsonConverter);
