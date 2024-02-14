@@ -10,8 +10,8 @@
     "url": "git+https://github.com/VincentSC/node-red-contrib-graphql-convert.git"
   },
   "dependencies": {
-    "graphql-query-to-json": "^0.0.1",
-    "json-to-graphql-query": "^0.0.1"
+    "graphql-query-to-json": "^2.0.1",
+    "json-to-graphql-query": "^2.2.5"
   },
   "keywords": [
     "node-red",
