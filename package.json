@@ -7,10 +7,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renzenicolai/node-red-contrib-convert.git"
+    "url": "git+https://github.com/VincentSC/node-red-contrib-graphql-convert.git"
+  },
+  "dependencies": {
+    "graphql-query-to-json": "^0.0.1",
+    "json-to-graphql-query": "^0.0.1"
   },
   "keywords": [
-    "node-red"
+    "node-red",
+    "graphql",
+    "json"
   ],
   "author": "Vincent Hindriksen",
   "license": "MIT",
