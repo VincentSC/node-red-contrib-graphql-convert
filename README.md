@@ -1,2 +1,1 @@
-Simple node that converts the payload to a specific type.
-Currently converts to string, number and boolean.
+Node-RED node that converts between graphql and json

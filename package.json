@@ -1,7 +1,7 @@
-Hindriksen{
-  "name": "node-red-contrib-convert",
+{
+  "name": "node-red-contrib-graphql-convert",
   "version": "1.0.5",
-  "description": "Node-RED node that converts payloads to a specific type",
+  "description": "Node-RED node that converts between graphql and json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,7 @@ Hindriksen{
   "homepage": "https://github.com/VincentSC/node-red-contrib-graphql-convert#readme",
   "node-red": {
     "nodes": {
-      "graphql2json": "convert/graphql2json.js"
+      "graphql2json": "convert/graphql2json.js",
       "json2graphql": "convert/json2graphql.js"
     }
   }
