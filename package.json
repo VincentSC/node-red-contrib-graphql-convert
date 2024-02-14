@@ -1,4 +1,4 @@
-{
+Hindriksen{
   "name": "node-red-contrib-convert",
   "version": "1.0.5",
   "description": "Node-RED node that converts payloads to a specific type",
@@ -12,15 +12,16 @@
   "keywords": [
     "node-red"
   ],
-  "author": "Renze Nicolai",
+  "author": "Vincent Hindriksen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/renzenicolai/node-red-contrib-convert/issues"
+    "url": "https://github.com/VincentSC/node-red-contrib-graphql-convert/issues"
   },
-  "homepage": "https://github.com/renzenicolai/node-red-contrib-convert#readme",
+  "homepage": "https://github.com/VincentSC/node-red-contrib-graphql-convert#readme",
   "node-red": {
     "nodes": {
-      "sample": "convert/convert.js"
+      "graphql2json": "convert/graphql2json.js"
+      "json2graphql": "convert/json2graphql.js"
     }
   }
 }
