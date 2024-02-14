@@ -7,14 +7,15 @@
 
 
 <script type="text/x-red" data-help-name="graphql2json">
-    <p>Converts the GraphQL in <code>msg.graphql</code> to a JSON and places it in <code>msg.json</code>.</p>
+    <p>Converts the GraphQL in <code>msg.payload.graphql</code> to a JSON and places it in <code>msg.payload.json</code>.</p>
+    <p>To use the variable-merging, as supported by <i>graphql-query-to-json</i>, set <code>msg.payload.variables</code>.</p>
 </script>
 
 <script type="text/javascript">
     RED.nodes.registerType('graphql2json',{
         category: 'function',
         defaults: {             // defines the editable properties of the node
-            name: {value:""},   //  along with default values.
+            name: {value: ""},   //  along with default values.
         },
         inputs: 1,
         outputs: 1,

@@ -7,9 +7,9 @@ module.exports = function(RED) {
         let node = this;
 		this.on('input', function(msg, send, done) {
 			send = send || function() { node.send.apply(node,arguments) }
-			msg.graphql = graphQlQueryToJson(msg.json, { pretty: true });
+			msg.payload.json = graphQlQueryToJson(msg.payload.graphql, { variables: msg.payload.variables } );
 			send(msg);
-		
+
 			if (done) {
 				done();
 			}
